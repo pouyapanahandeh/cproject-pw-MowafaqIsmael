@@ -9,11 +9,11 @@
           <q-btn
             push
             class="text-black"
-            icon="fa-solid fa-arrow-right"
-            label="Get your Program"
+            icon="fa-solid fa-home"
+            label="home"
             color="white"
             size="md"
-            to="/get-program"
+            to="/"
           />
         </q-toolbar>
       </div>

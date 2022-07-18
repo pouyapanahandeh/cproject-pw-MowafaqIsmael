@@ -1,29 +1,28 @@
 <template>
   <q-layout view="hHh lpR fff">
-    <q-header reveal class="bg-primary text-white">
-      <q-toolbar>
-        <q-toolbar-title>
-          <q-avatar>
-            <img src="https://cdn.quasar.dev/logo-v2/svg/logo-mono-white.svg" />
-          </q-avatar>
-          Title
-        </q-toolbar-title>
-      </q-toolbar>
+    <q-header reveal class="bg-black text-white">
+      <div class="q-mx-lg q-pa-md">
+        <q-toolbar>
+          <q-toolbar-title class="tag-line-text">
+            Mowafaq Ismael
+          </q-toolbar-title>
+          <q-btn
+            push
+            class="text-black"
+            icon="fa-solid fa-arrow-right"
+            label="Get your Program"
+            color="white"
+            size="md"
+            to="/get-program"
+          />
+        </q-toolbar>
+      </div>
     </q-header>
 
     <q-page-container>
       <router-view />
     </q-page-container>
 
-    <q-footer bordered class="bg-grey-8 text-white">
-      <q-toolbar>
-        <q-toolbar-title>
-          <q-avatar>
-            <img src="https://cdn.quasar.dev/logo-v2/svg/logo-mono-white.svg" />
-          </q-avatar>
-          <div>Title</div>
-        </q-toolbar-title>
-      </q-toolbar>
-    </q-footer>
+    <q-footer bordered class="bg-grey-8 text-white"> </q-footer>
   </q-layout>
 </template>

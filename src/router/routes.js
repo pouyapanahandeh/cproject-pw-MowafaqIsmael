@@ -5,6 +5,16 @@ const routes = [
     children: [{ path: "", component: () => import("pages/IndexPage.vue") }],
   },
   {
+    path: "/kitchensink",
+    component: () => import("layouts/SubMainLayout.vue"),
+    children: [
+      {
+        path: "",
+        component: () => import("pages/KitchenSink/KitchenSink.vue"),
+      },
+    ],
+  },
+  {
     path: "/get-program",
     component: () => import("layouts/SubMainLayout.vue"),
     children: [{ path: "", component: () => import("pages/GetProgram.vue") }],

@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
 
 body {
-  background-color: #071013;
+  background-color: #989ea0;
 }
 
 .tag-line-text {
@@ -17,6 +17,39 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.main-btn {
+  text-align: center;
+  border-radius: 0%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.main-btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.main-btn span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.main-btn:hover span {
+  padding-right: 25px;
+}
+
+.main-btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
 .glow-on-hover {
   border: none;
   outline: none;
@@ -28,17 +61,7 @@ body {
 
 .glow-on-hover:before {
   content: "";
-  background: linear-gradient(
-    50deg,
-    #ff7300,
-    #fffb00,
-    #48ff00,
-    #00ffd5,
-    #002bff,
-    #7a00ff,
-    #ff00c8,
-    #ff0000
-  );
+  background: linear-gradient(45deg, #23b5d3, #071013, #ff0000);
   position: absolute;
   background-size: 400%;
   z-index: -1;

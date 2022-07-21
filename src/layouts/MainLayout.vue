@@ -20,27 +20,18 @@
       <router-view />
     </q-page-container>
 
-    <q-footer class="bg-black text-white">
+    <q-footer class="bg-primary text-white">
       <div class="flex flex-center">
         <div class="row q-my-sm q-gutter-sm">
           <q-btn
-            outline
-            round
-            href="https://twitter.com/"
-            icon="fab fa-twitter"
-            color="white"
-          />
-          <q-btn
-            outline
-            round
-            href="https://www.facebook.com/"
+            flat
+            href="https://www.facebook.com/Mowafaq-Ismael-632052684090657/"
             icon="fab fa-facebook"
             color="white"
           />
           <q-btn
-            outline
-            round
-            href="https://www.instagram.com/"
+            flat
+            href="https://www.instagram.com/mowafaq.ismael/"
             icon="fab fa-instagram"
             color="white"
           />
@@ -48,7 +39,9 @@
       </div>
       <div class="flex flex-center">
         <div class="row q-my-sm">
-          <div class="text-h6 text-grey-9">&reg; &copy; Mowafaq Ismael</div>
+          <div class="text-h6 tag-line-text text-grey-3">
+            &copy; 2020 Mowafaq Ismael
+          </div>
         </div>
       </div>
     </q-footer>

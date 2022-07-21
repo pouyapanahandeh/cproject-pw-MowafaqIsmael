@@ -1,23 +1,20 @@
 <template>
   <q-layout view="hHh lpR fff">
-    <q-header reveal class="bg-black text-white">
+    <!-- <q-header reveal class="bg-primary text-white">
       <div class="q-mx-lg q-pa-xs">
-        <q-toolbar>
-          <q-toolbar-title class="tag-line-text">
-            Mowafaq Ismael
+        <q-toolbar class="q-ma-md">
+          <q-toolbar-title class="tag-line-text text-h4">
+            N7T Team
           </q-toolbar-title>
           <q-btn
-            push
-            class="text-black"
-            icon="fa-solid fa-arrow-right"
-            label="Get your Program"
-            color="white"
+            class="glow-on-hover bg-secondary"
+            label="Apply"
             size="md"
             to="/get-program"
           />
         </q-toolbar>
       </div>
-    </q-header>
+    </q-header> -->
 
     <q-page-container>
       <router-view />

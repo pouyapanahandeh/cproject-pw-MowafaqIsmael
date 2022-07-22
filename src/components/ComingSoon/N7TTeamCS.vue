@@ -1,12 +1,7 @@
 <template>
   <div class="full-width full-height" id="overlay">
-    <div class="text-white in-center tag-line-text">
-      <span class="text-h2" style="background-color: black"
-        >Coming
-        <span class="text-black" style="background-color: white"
-          >soon</span
-        ></span
-      >
+    <div class="text-white in-center cs-font">
+      <span class="text-h2">Coming <span class="text-black">soon</span></span>
       <br />
       <span class="text-h3">you can, you will!</span>
       <br />
@@ -34,7 +29,7 @@
       </div>
       <div class="col-6 col-md-4 col-xs-12 full-height">
         <video
-          src="../../assets/imgs/CSVideo/vid-4.mp4"
+          src="../../assets/imgs/CSVideo/vid-3.mp4"
           class="full-width"
           autoplay
           loop

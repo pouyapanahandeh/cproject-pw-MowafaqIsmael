@@ -1,20 +1,19 @@
 <template>
   <q-layout view="hHh lpR fff">
-    <!-- <q-header reveal class="bg-primary text-white">
-      <div class="q-mx-lg q-pa-xs">
-        <q-toolbar class="q-ma-md">
+    <q-header reveal class="bg-primary text-white">
+      <div class="row">
+        <q-toolbar class="bg-primary text-white" style="height: 70px">
           <q-toolbar-title class="tag-line-text text-h4">
             N7T Team
           </q-toolbar-title>
-          <q-btn
-            class="glow-on-hover bg-secondary"
-            label="Apply"
-            size="md"
-            to="/get-program"
-          />
+          <q-btn class="bg-secondary text-white main-btn">
+            <span class="tag-line-text q-mx-md q-my-xs text-body1"
+              >Apply now</span
+            >
+          </q-btn>
         </q-toolbar>
       </div>
-    </q-header> -->
+    </q-header>
 
     <q-page-container>
       <router-view />
@@ -47,3 +46,31 @@
     </q-footer>
   </q-layout>
 </template>
+<script>
+import { ref } from "vue";
+
+export default {
+  setup() {
+    const loading = ref([false, false, false, false, false, false]);
+
+    const progress = ref(false);
+
+    function simulateProgress(number) {
+      // we set loading state
+      loading.value[number] = true;
+
+      // simulate a delay
+      setTimeout(() => {
+        // we're done, we reset loading state
+        loading.value[number] = false;
+      }, 3000);
+    }
+
+    return {
+      loading,
+      progress,
+      simulateProgress,
+    };
+  },
+};
+</script>

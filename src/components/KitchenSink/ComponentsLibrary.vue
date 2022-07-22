@@ -62,7 +62,7 @@
 
     <!-- Introduction one -->
     <div class="row q-py-md">
-      <span class="text-caption">Introduction Cards</span>
+      <span class="text-caption">Introduction 1</span>
     </div>
     <div class="row" style="border: 1px solid #ccc">
       <IntroductionMI />
@@ -70,24 +70,43 @@
 
     <!-- introduction two -->
     <div class="row q-py-md">
-      <span class="text-caption">Header 3</span>
+      <span class="text-caption">Introduction 2</span>
     </div>
-    <div class="row"></div>
+    <div class="row full-height">
+      <IntroductionMI2 />
+    </div>
 
     <!-- introduction three -->
     <div class="row q-py-md">
-      <span class="text-caption">Header 3</span>
+      <span class="text-caption">Introduction 3</span>
     </div>
-    <div class="row"></div>
+    <div class="row">
+      <IntroductionMI3 />
+    </div>
+
+    <!-- introduction Four -->
+    <!-- introduction three -->
+    <div class="row q-py-md">
+      <span class="text-caption">Introduction 4</span>
+    </div>
+    <div class="row">
+      <IntroductionMI4 />
+    </div>
   </div>
 </template>
 <script>
 import { ref } from "vue";
 import IntroductionMI from "../MainPageComponents/IntroductionMI.vue";
+import IntroductionMI2 from "../MainPageComponents/IntroductionMI2.vue";
+import IntroductionMI3 from "../MainPageComponents/IntroductionMI3.vue";
+import IntroductionMI4 from "../MainPageComponents/IntroductionMI4.vue";
 
 export default {
   components: {
     IntroductionMI,
+    IntroductionMI2,
+    IntroductionMI3,
+    IntroductionMI4,
   },
   setup() {
     const loading = ref([false, false, false, false, false, false]);

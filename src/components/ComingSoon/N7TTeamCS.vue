@@ -11,7 +11,7 @@
 
   <div class="full-width full-height">
     <div class="row">
-      <div class="col-6 col-md-4 hide-in-mobile">
+      <div class="col-6 col-md-4 col-sm-4 hide-in-mobile">
         <video
           src="../../assets/imgs/CSVideo/vid-1.mp4"
           autoplay
@@ -19,7 +19,7 @@
           muted
         ></video>
       </div>
-      <div class="col-6 col-md-4 hide-in-mobile">
+      <div class="col-6 col-md-4 col-sm-4 hide-in-mobile">
         <video
           src="../../assets/imgs/CSVideo/vid-2.mp4"
           autoplay
@@ -27,7 +27,7 @@
           muted
         ></video>
       </div>
-      <div class="col-6 col-md-4 col-xs-12 full-height">
+      <div class="col-6 col-md-4 col-xs-12">
         <video
           src="../../assets/imgs/CSVideo/vid-3.mp4"
           class="full-width"
@@ -39,6 +39,7 @@
     </div>
   </div>
 </template>
+``
 <style>
 #overlay {
   position: fixed;

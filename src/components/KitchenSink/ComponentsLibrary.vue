@@ -85,12 +85,27 @@
     </div>
 
     <!-- introduction Four -->
-    <!-- introduction three -->
     <div class="row q-py-md">
       <span class="text-caption">Introduction 4</span>
     </div>
     <div class="row">
       <IntroductionMI4 />
+    </div>
+
+    service card 3
+    <div class="row q-py-md">
+      <span class="text-caption">Service card 2</span>
+    </div>
+    <div class="row">
+      <ServiceCard2 />
+    </div>
+
+    <!-- Customer Carousel -->
+    <div class="row q-py-md">
+      <span class="text-caption">Customer Carousel 3</span>
+    </div>
+    <div class="row">
+      <CustomerCarousel />
     </div>
   </div>
 </template>
@@ -100,13 +115,18 @@ import IntroductionMI from "../MainPageComponents/IntroductionMI.vue";
 import IntroductionMI2 from "../MainPageComponents/IntroductionMI2.vue";
 import IntroductionMI3 from "../MainPageComponents/IntroductionMI3.vue";
 import IntroductionMI4 from "../MainPageComponents/IntroductionMI4.vue";
-
+// import ServiceAndCustomer from "../MainPageComponents/ServiceAndCustomer.vue";
+import CustomerCarousel from "../MainPageComponents/CustomerCarousel.vue";
+import ServiceCard2 from "../MainPageComponents/ServiceCard2.vue";
 export default {
   components: {
     IntroductionMI,
     IntroductionMI2,
     IntroductionMI3,
     IntroductionMI4,
+    CustomerCarousel,
+    // ServiceAndCustomer,
+    ServiceCard2,
   },
   setup() {
     const loading = ref([false, false, false, false, false, false]);

@@ -111,7 +111,7 @@
 </template>
 <script>
 import { ref } from "vue";
-import IntroductionMI from "../MainPageComponents/IntroductionMI.vue";
+import IntroductionMI from "./IntroductionMI.vue";
 import IntroductionMI2 from "../MainPageComponents/IntroductionMI2.vue";
 import IntroductionMI3 from "../MainPageComponents/IntroductionMI3.vue";
 import IntroductionMI4 from "../MainPageComponents/IntroductionMI4.vue";

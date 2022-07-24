@@ -52,7 +52,17 @@
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 2;
 }
+#vid-1 {
+  display: block;
+}
 
+#vid-2 {
+  display: block;
+}
+
+#vid-3 {
+  display: block;
+}
 @media screen and (max-width: 599px) {
   #vid-1 {
     display: none;

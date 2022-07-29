@@ -5,7 +5,7 @@
     </div>
   </div>
   <div class="row justify-around q-ma-lg">
-    <div class="col-6 col-md-5 col-sm-12 col-xs-12">
+    <div class="col-6 col-md-4 col-sm-12 col-xs-12">
       <div class="q-ma-md">
         <q-card
           class="my-card bg-primary text-white"
@@ -27,6 +27,7 @@
                 <q-item-label class="text-h6 tag-line-text"
                   >Diet and nutrients plan</q-item-label
                 >
+                <q-item-label class="text-white" caption></q-item-label>
               </q-item-section>
             </q-item>
 
@@ -39,6 +40,7 @@
                 <q-item-label class="text-h6 tag-line-text"
                   >workout plan</q-item-label
                 >
+                <q-item-label class="text-white" caption></q-item-label>
               </q-item-section>
             </q-item>
 
@@ -51,6 +53,7 @@
                 <q-item-label class="text-h6 tag-line-text"
                   >Email Support</q-item-label
                 >
+                <q-item-label class="text-white" caption></q-item-label>
               </q-item-section>
             </q-item>
 
@@ -61,6 +64,7 @@
 
               <q-item-section>
                 <q-item-label class="text-h6 tag-line-text">100 $</q-item-label>
+                <q-item-label class="text-white" caption></q-item-label>
               </q-item-section>
             </q-item>
 
@@ -78,15 +82,15 @@
         </q-card>
       </div>
     </div>
-    <div class="col-6 col-md-5 col-sm-12 col-xs-12">
+    <div class="col-6 col-md-4 col-sm-12 col-xs-12">
       <div class="q-ma-md">
         <q-card
           class="my-card bg-primary text-white"
           style="border: 1px solid white"
         >
-          <q-img src="../../assets/imgs/MI-7.jpeg">
-            <div class="absolute-full tag-line-text text-h5 flex flex-center">
-              1 month plan
+          <q-img src="../../assets/imgs/MI-10.jpeg">
+            <div class="absolute-full tag-line-text text-h6 flex flex-center">
+              <div class="row">3 months plan</div>
             </div>
           </q-img>
 
@@ -100,6 +104,9 @@
                 <q-item-label class="text-h6 tag-line-text"
                   >Diet and nutrients plan</q-item-label
                 >
+                <q-item-label class="text-white" caption
+                  >Diet plan maybe change every week</q-item-label
+                >
               </q-item-section>
             </q-item>
 
@@ -112,17 +119,25 @@
                 <q-item-label class="text-h6 tag-line-text"
                   >workout plan</q-item-label
                 >
+                <q-item-label class="text-white" caption
+                  >weekly adjustables</q-item-label
+                >
               </q-item-section>
             </q-item>
 
             <q-item clickable>
               <q-item-section avatar
-                ><q-avatar size="lg"> &#128242;</q-avatar>
+                ><q-avatar size="md">
+                  <q-img src="../../assets/imgs/wtsapp-logo.png" />
+                </q-avatar>
               </q-item-section>
 
               <q-item-section>
                 <q-item-label class="text-h6 tag-line-text"
-                  >Instant online support</q-item-label
+                  >Instant online support via whatsapp</q-item-label
+                >
+                <q-item-label class="text-white" caption
+                  >weekly checking by photo or video call</q-item-label
                 >
               </q-item-section>
             </q-item>
@@ -134,6 +149,9 @@
 
               <q-item-section>
                 <q-item-label class="text-h6 tag-line-text">200 $</q-item-label>
+                <q-item-label class="text-white" caption
+                  >save up to 30%</q-item-label
+                >
               </q-item-section>
             </q-item>
 

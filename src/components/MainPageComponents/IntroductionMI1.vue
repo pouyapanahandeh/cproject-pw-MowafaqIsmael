@@ -25,12 +25,13 @@
             <div class="col">
               <div class="flex flex-center">
                 <q-btn
-                  flat
-                  round
-                  class="hover-shake"
-                  icon="mouse"
-                  id="shake-y"
-                />
+                  class="bg-secondary text-white main-btn mobile-btn"
+                  to="/get-program"
+                >
+                  <span class="tag-line-text q-mx-md q-my-xs text-body1"
+                    >Apply now</span
+                  >
+                </q-btn>
               </div>
             </div>
           </div>
@@ -53,12 +54,13 @@
             <div class="col">
               <div class="flex flex-center">
                 <q-btn
-                  flat
-                  round
-                  class="hover-shake"
-                  icon="mouse"
-                  id="shake-y"
-                />
+                  class="bg-secondary text-white main-btn mobile-btn"
+                  to="/get-program"
+                >
+                  <span class="tag-line-text q-mx-md q-my-xs text-body1"
+                    >Apply now</span
+                  >
+                </q-btn>
               </div>
             </div>
           </div>
@@ -174,6 +176,18 @@
 }
 #mobile-main-text {
   display: none;
+}
+
+.mobile-btn {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .desktop-icon {
+    display: none;
+  }
+  .mobile-btn {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 474px) {

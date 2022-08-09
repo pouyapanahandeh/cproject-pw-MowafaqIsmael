@@ -50,3 +50,7 @@
     </q-footer>
   </q-layout>
 </template>
+<style scoped>
+.body {
+}
+</style>

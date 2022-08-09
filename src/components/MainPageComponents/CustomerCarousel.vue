@@ -15,8 +15,8 @@
       control-color="secondary"
       padding
       class="bg-primary shadow-2 full-width"
-      style="height: 100%"
-      :autoplay="9000"
+      style="width: 100%; height: 100%"
+      :autoplay="5000"
       navigation
       arrows
       infinite
@@ -43,24 +43,18 @@
         <div
           class="row fill justify-start items-center q-gutter-xs q-col-gutter no-wrap"
         >
-          <video
-            src="../../assets/imgs/CSVideo/cs-vid-1.mp4"
+          <q-img
             class="rounded-borders col-4 full-height"
-            muted
-            autoplay
-            loop
-          ></video>
+            src="../../assets/imgs/cs-9.png"
+          />
           <q-img
             class="rounded-borders col-4 full-height"
             src="../../assets/imgs/cs-1.jpeg"
           />
-          <video
-            src="../../assets/imgs/CSVideo/cs-vid-2.mp4"
+          <q-img
             class="rounded-borders col-4 full-height"
-            muted
-            autoplay
-            loop
-          ></video>
+            src="../../assets/imgs/cs-10.jpeg"
+          />
         </div>
       </q-carousel-slide>
       <q-carousel-slide :name="3" class="column no-wrap">

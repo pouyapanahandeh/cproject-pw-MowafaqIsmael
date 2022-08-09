@@ -117,7 +117,7 @@
                 class="full-width q-my-sm"
                 v-model="userFavoriteProteinSource"
                 label="Favorite protein source"
-                hint="For ex: biotech"
+                hint="For ex: chicken, beef or fish"
                 filled
                 clearable
               />

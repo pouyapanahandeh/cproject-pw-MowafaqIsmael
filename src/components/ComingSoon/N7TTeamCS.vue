@@ -11,7 +11,7 @@
 
   <div class="full-width full-height">
     <div class="row">
-      <div class="col-6 col-md-4 col-sm-4 hide-in-mobile">
+      <!-- <div class="col-6 col-md-4 col-sm-4 hide-in-mobile">
         <video
           src="../../assets/imgs/CSVideo/vid-1.mp4"
           autoplay
@@ -34,7 +34,7 @@
           autoplay
           loop
           muted
-        ></video>
+        ></video> -->
       </div>
     </div>
   </div>

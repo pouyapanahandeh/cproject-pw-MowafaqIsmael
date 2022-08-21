@@ -6,7 +6,7 @@
           <q-toolbar-title class="tag-line-text text-h4">
             N7T Team
           </q-toolbar-title>
-          <q-btn class="bg-secondary text-white main-btn" to="/get-program">
+          <q-btn class="bg-secondary text-white main-btn" to="/join">
             <span class="tag-line-text q-mx-md q-my-xs text-body1"
               >Apply now</span
             >
